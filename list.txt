@@ -1,0 +1,67 @@
+# MZ's Pi-hole block list - Last updated 06/23/2020
+# Not a list recommended for the general public. Tailored for my networks.
+
+## Tracking and/or ad domains.
+
+# Possible Tracking URLs for Pocket integration on Firefox.
+getpocket.cdn.mozilla.net
+spocs.getpocket.com
+
+# Logging of some kind for Google APIs.
+logging.googleapis.com
+
+# Rockstar games telemetry
+prod.telemetry.ros.rockstargames.com
+
+# Temporary blocks for Coordinated Business Systems's servers until I find the software that's pinging it
+smartprint.coordinated.com
+www.smartprint.coordinated.com
+
+##############################
+
+## Parked domains, common misspellings.
+
+# speedtest.com - Parked, suspicious looking links.
+speedtest.com
+www.speedtest.com
+ww42.speedtest.com
+
+# foldingathome.com - Not the Folding@home project. Parked domain.
+foldingathome.com
+www.foldingathome.com
+
+# pihole.net - Not the Pi-hole client website.
+pihole.net
+www.pihole.net
+
+# opengapps.com - Not the Open GApps Project
+opengapps.com
+www.opengapps.com
+ww1.opengapps.com
+
+##############################
+
+## Things that Windows/Microsoft apps are pinging for no reason that we have no need for.
+
+# Skype
+config.edge.skype.com
+a.config.skype.com
+b.config.skype.com
+s2s.config.skype.com
+edge.skype.com
+experimental-api.asm.skype.com
+
+# Microsoft Teams
+config.teams.microsoft.com
+
+##############################
+
+## Items for whitelisting.
+
+# Various analytics I want being collected.
+# stats.lineageos.org - LineageOS ROM stats collection and stats webpage.
+# incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
+
+# Conflicts caused by regex.
+# stats.foldingathome.org - Stats webpage for Folding@home.
+# analytics.twitter.com - Required to view analytics and for some redirects on Twitter
