@@ -4,11 +4,11 @@
 # | |  | | / /_   \__ \ | |_) || || (_) || (__ |   < | || |\__ \| |_ 
 # |_|  |_|/____|  |___/ |_.__/ |_| \___/  \___||_|\_\|_||_||___/ \__|
 #
-# Blocklist for use in Pi-hole. This one is tailored for my own networks, so it likely won't be useful for you. It will break some things... so fair warning.
+# Blocklist for use in Pi-hole. This one is tailored for my own networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom there is also a list for tracking my whitelist entries.
 #
 # Block Entries: 23
-# Whitelist Entries: 6
-# Last update: August 18th 2020
+# Whitelist Entries: 7
+# Last update: August 18th 2020 - 4:30 PM CT
 
 
 ## Tracking and/or ad domains.
@@ -70,6 +70,7 @@ config.teams.microsoft.com
 
 # Various analytics I want being collected.
 # stats.lineageos.org - LineageOS ROM stats collection and stats webpage.
+# stats.crdroid.net - crDroid ROM stats collection and stats webpage.
 # incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
 
 # Conflicts caused by regex.
