@@ -6,8 +6,9 @@
 #
 # Blocklist for use in Pi-hole. This one is tailored for my own networks, so it likely won't be useful for you. It will break some things... so fair warning.
 #
-# Entries: 23
-# Last update: June 23rd 2020
+# Block Entries: 23
+# Whitelist Entries: 6
+# Last update: August 18th 2020
 
 
 ## Tracking and/or ad domains.
@@ -22,7 +23,7 @@ logging.googleapis.com
 # Rockstar games telemetry
 prod.telemetry.ros.rockstargames.com
 
-# Temporary blocks for Coordinated Business Systems's servers until I find the software that's pinging it
+# Temporary blocks for Coordinated Business Systems's servers until I find the software that's pinging it.
 smartprint.coordinated.com
 www.smartprint.coordinated.com
 
@@ -74,3 +75,5 @@ config.teams.microsoft.com
 # Conflicts caused by regex.
 # stats.foldingathome.org - Stats webpage for Folding@home.
 # analytics.twitter.com - Required to view analytics and for some redirects on Twitter.
+# dnsleaktest.net (wildcard) - Some subdomains are falsely caught by regex.
+# tracking-protection.cdn.mozilla.net - Tracking protection in Firefox. Likely used to update filters.
