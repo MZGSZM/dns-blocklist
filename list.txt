@@ -1,5 +1,14 @@
-# MZ's Pi-hole block list - Last updated 06/23/2020
-# Not a list recommended for the general public. Tailored for my networks.
+#  __  __  _____ _       _      _               _     _  _       _   
+# |  \/  ||__  /( )___  | |__  | |  ___    ___ | | __| |(_) ___ | |_ 
+# | |\/| |  / / |// __| | '_ \ | | / _ \  / __|| |/ /| || |/ __|| __|
+# | |  | | / /_   \__ \ | |_) || || (_) || (__ |   < | || |\__ \| |_ 
+# |_|  |_|/____|  |___/ |_.__/ |_| \___/  \___||_|\_\|_||_||___/ \__|
+#
+# Blocklist for use in Pi-hole. This one is tailored for my own networks, so it likely won't be useful for you. It will break some things... so fair warning.
+#
+# Entries: 23
+# Last update: June 23rd 2020
+
 
 ## Tracking and/or ad domains.
 
@@ -64,4 +73,4 @@ config.teams.microsoft.com
 
 # Conflicts caused by regex.
 # stats.foldingathome.org - Stats webpage for Folding@home.
-# analytics.twitter.com - Required to view analytics and for some redirects on Twitter
+# analytics.twitter.com - Required to view analytics and for some redirects on Twitter.
