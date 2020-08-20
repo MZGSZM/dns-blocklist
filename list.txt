@@ -4,11 +4,13 @@
 # | |  | | / /_   \__ \ | |_) || || (_) || (__ |   < | || |\__ \| |_ 
 # |_|  |_|/____|  |___/ |_.__/ |_| \___/  \___||_|\_\|_||_||___/ \__|
 #
-# Blocklist for use in Pi-hole. This one is tailored for my own networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom there is also a list for tracking my whitelist entries.
+# Blocklist for use in Pi-hole. This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
 #
-# Block Entries: 23
+# Block Entries: 26
 # Whitelist Entries: 7
-# Last update: August 18th 2020 - 4:30 PM CT
+# Last update: August 20th, 2020 - 1:50 PM CT
+# 
+# Things this list breaks: Skype, Microsoft Teams, Pocket/Pocket integration in Firefox, possibly others.
 
 
 ## Tracking and/or ad domains.
@@ -23,7 +25,7 @@ logging.googleapis.com
 # Rockstar games telemetry
 prod.telemetry.ros.rockstargames.com
 
-# Temporary blocks for Coordinated Business Systems's servers until I find the software that's pinging it.
+# Temporary blocks for Coordinated Business Systems' servers until I find the software that's pinging it.
 smartprint.coordinated.com
 www.smartprint.coordinated.com
 
@@ -31,7 +33,7 @@ www.smartprint.coordinated.com
 
 ## Parked domains, common misspellings.
 
-# speedtest.com - Parked, suspicious looking links.
+# speedtest.com - Parked, suspicious-looking links.
 speedtest.com
 www.speedtest.com
 ww42.speedtest.com
@@ -44,14 +46,19 @@ www.foldingathome.com
 pihole.net
 www.pihole.net
 
-# opengapps.com - Not the Open GApps Project
+# opengapps.com - Not the Open GApps Project.
 opengapps.com
 www.opengapps.com
 ww1.opengapps.com
 
+# crdroid.org - Not the crDroid ROM.
+crdroid.org
+www.crdroid.org
+ww38.crdroid.org
+
 ##############################
 
-## Things that Windows/Microsoft apps are pinging for no reason that we have no need for.
+## Things that Windows/Microsoft apps are pinging for no reason that we do not need.
 
 # Skype
 config.edge.skype.com
@@ -64,11 +71,12 @@ experimental-api.asm.skype.com
 # Microsoft Teams
 config.teams.microsoft.com
 
+
 ##############################
 
 ## Items for whitelisting.
 
-# Various analytics I want being collected.
+# Various analytics I want to be collected.
 # stats.lineageos.org - LineageOS ROM stats collection and stats webpage.
 # stats.crdroid.net - crDroid ROM stats collection and stats webpage.
 # incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
