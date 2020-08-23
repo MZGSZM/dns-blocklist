@@ -8,7 +8,7 @@
 #
 # Block Entries: 27
 # Whitelist Entries: 7
-# Last update: August 20th, 2020 - 6:45 PM CT
+# Last update: August 22nd, 2020 - 8:25 PM CT
 # 
 # Things this list breaks: Skype, Microsoft Teams, Pocket/Pocket integration in Firefox, possibly others.
 
@@ -87,5 +87,5 @@ config.teams.microsoft.com
 # Conflicts caused by regex.
 # stats.foldingathome.org - Stats webpage for Folding@home.
 # analytics.twitter.com - Required to view analytics and for some redirects on Twitter.
-# dnsleaktest.net (wildcard) - Some subdomains are falsely caught by regex.
+# dnsleaktest.com (wildcard) - Some subdomains are falsely caught by regex.
 # tracking-protection.cdn.mozilla.net - Tracking protection in Firefox. Likely used to update filters.
