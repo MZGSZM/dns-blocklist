@@ -6,9 +6,9 @@
 #
 # Blocklist for use in Pi-hole. This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
 #
-# Block Entries: 27
+# Block Entries: 29
 # Whitelist Entries: 7
-# Last update: August 22nd, 2020 - 8:25 PM CT
+# Last update: September 24th, 2020 - 12:25 AM CT
 # 
 # Things this list breaks: Skype, Microsoft Teams, Pocket/Pocket integration in Firefox, possibly others.
 
@@ -27,6 +27,9 @@ prod.telemetry.ros.rockstargames.com
 
 # Microsoft telemetry domains missing in oisd.nl for problems not found on my networks.
 mobile.pipe.aria.microsoft.com
+
+# Something related to Avast or products owned by Avast.
+ip-info.ff.avast.com
 
 # Temporary blocks for Coordinated Business Systems' servers until I find the software that's pinging it.
 smartprint.coordinated.com
@@ -73,6 +76,7 @@ experimental-api.asm.skype.com
 
 # Microsoft Teams
 config.teams.microsoft.com
+teams-ring.msedge.net
 
 
 ##############################
