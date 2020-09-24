@@ -5,11 +5,14 @@
 # |_|  |_|/____|  |___/ |_.__/ |_| \___/  \___||_|\_\|_||_||___/ \__|
 #
 # Blocklist for use in Pi-hole. This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
+# 
 #
 # Block Entries: 29
 # Whitelist Entries: 7
-# Last update: September 24th, 2020 - 12:25 AM CT
+# Last update: September 24th, 2020 - 12:32 AM CT
 # 
+# List shortlink: https://MZGSZM.me/pihole-blocklist
+# --------------------------------------------------
 # Things this list breaks: Skype, Microsoft Teams, Pocket/Pocket integration in Firefox, possibly others.
 
 
