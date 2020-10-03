@@ -8,8 +8,8 @@
 # 
 #
 # Block Entries: 29
-# Whitelist Entries: 7
-# Last update: September 24th, 2020 - 12:32 AM CT
+# Whitelist Entries: 8
+# Last update: October 3rd, 2020 - 5:58 PM CT
 # 
 # List shortlink: https://MZGSZM.me/pihole-blocklist
 # --------------------------------------------------
@@ -96,3 +96,4 @@ teams-ring.msedge.net
 # analytics.twitter.com - Required to view analytics and for some redirects on Twitter.
 # dnsleaktest.com (wildcard) - Some subdomains are falsely caught by regex.
 # tracking-protection.cdn.mozilla.net - Tracking protection in Firefox. Likely used to update filters.
+# pixel.google.com - Google's homepage for Pixel phones.
