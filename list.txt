@@ -7,9 +7,9 @@
 # Blocklist for use in Pi-hole. This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
 # 
 #
-# Block Entries: 29
+# Block Entries: 30
 # Whitelist Entries: 8
-# Last update: October 3rd, 2020 - 5:58 PM CT
+# Last update: October 16th, 2020 - 11:17 PM CT
 # 
 # List shortlink: https://MZGSZM.me/pihole-blocklist
 # --------------------------------------------------
@@ -25,7 +25,7 @@ spocs.getpocket.com
 # Logging of some kind for Google APIs.
 logging.googleapis.com
 
-# Rockstar Games telemetry
+# Rockstar Games telemetry - missing in oisd.nl for problems not found on my networks.
 prod.telemetry.ros.rockstargames.com
 
 # Microsoft telemetry domains missing in oisd.nl for problems not found on my networks.
@@ -33,6 +33,9 @@ mobile.pipe.aria.microsoft.com
 
 # Something related to Avast or products owned by Avast.
 ip-info.ff.avast.com
+
+# Google Analytics - missing in oisd.nl list.
+ssl.google-analytics.com
 
 # Temporary blocks for Coordinated Business Systems' servers until I find the software that's pinging it.
 smartprint.coordinated.com
