@@ -4,14 +4,14 @@
 # | |  | | / /_   \__ \ | |_) || || (_) || (__ |   < | || |\__ \| |_ 
 # |_|  |_|/____|  |___/ |_.__/ |_| \___/  \___||_|\_\|_||_||___/ \__|
 #
-# Blocklist for use in Pi-hole. This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
+# Blocklist for use in Adguard Home or Pi-hole (possibly others). This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
 # 
 #
 # Block Entries: 30
-# Whitelist Entries: 8
-# Last update: October 16th, 2020 - 11:17 PM CT
+# Whitelist Entries: 9
+# Last update: December 14th, 2020 - 10:24 PM CT
 # 
-# List shortlink: https://MZGSZM.me/pihole-blocklist
+# List shortlink: https://mzgszm.me/dns-blocklist
 # --------------------------------------------------
 # Things this list breaks: Skype, Microsoft Teams, Pocket/Pocket integration in Firefox, possibly others.
 
@@ -93,6 +93,7 @@ teams-ring.msedge.net
 # stats.lineageos.org - LineageOS ROM stats collection and stats webpage.
 # stats.crdroid.net - crDroid ROM stats collection and stats webpage.
 # incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
+# incoming-telemetry.thunderbird.net - Thunderbird telemetry
 
 # Conflicts caused by regex.
 # stats.foldingathome.org - Stats webpage for Folding@home.
