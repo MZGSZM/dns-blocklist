@@ -8,8 +8,8 @@
 # 
 #
 # Block Entries: 34
-# Whitelist Entries: 16
-# Last update: July 14th, 2021 - 8:09 PM CT
+# Whitelist Entries: 17
+# Last update: July 19th, 2021 - 10:36 AM CT
 # 
 # List shortlink: https://mzgszm.me/dns-blocklist
 # --------------------------------------------------
@@ -98,6 +98,7 @@ teams-ring.msedge.net
 # stats.crdroid.net - crDroid ROM stats collection and stats webpage.
 # incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
 # incoming-telemetry.thunderbird.net - Thunderbird telemetry
+# telemetry.malwarebytes.com - Malwarebytes telemetry
 
 # Conflicts caused by regex.
 # stats.foldingathome.org - Stats webpage for Folding@home.
