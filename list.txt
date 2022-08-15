@@ -7,9 +7,9 @@
 # Blocklist for use in Adguard Home or Pi-hole (possibly others). This one is tailored for my networks, so it likely won't be useful for you. It will break some things... so fair warning. At the bottom, there is also a list for tracking my whitelist entries.
 # 
 #
-# Block Entries: 34
-# Whitelist Entries: 17
-# Last update: July 19th, 2021 - 10:36 AM CT
+# Block Entries: 40
+# Whitelist Entries: 3
+# Last update: August 14th, 2022 - 8:44 PM CT
 # 
 # List shortlink: https://mzgszm.me/dns-blocklist
 # --------------------------------------------------
@@ -83,33 +83,23 @@ b.config.skype.com
 s2s.config.skype.com
 edge.skype.com
 experimental-api.asm.skype.com
+us-api.asm.skype.com
+api.userstore.skype.com
+api3.cc.skype.com
 
 # Microsoft Teams
 config.teams.microsoft.com
 teams-ring.msedge.net
+amer.ng.msg.teams.microsoft.com
+teams.events.data.microsoft.com
+authsvc.teams.microsoft.com
 
 
 ##############################
 
 ## Items for whitelisting.
 
-# Various analytics I want to be collected.
-# stats.lineageos.org - LineageOS ROM stats collection and stats webpage.
-# stats.crdroid.net - crDroid ROM stats collection and stats webpage.
+# Various analytics/telemetry I want to be collected.
 # incoming.telemetry.mozilla.org - Mozilla (Firefox mostly)
 # incoming-telemetry.thunderbird.net - Thunderbird telemetry
 # telemetry.malwarebytes.com - Malwarebytes telemetry
-
-# Conflicts caused by regex.
-# stats.foldingathome.org - Stats webpage for Folding@home.
-# analytics.twitter.com - Required to view analytics and for some redirects on Twitter.
-# dnsleaktest.com (wildcard) - Some subdomains are falsely caught by regex.
-# tracking-protection.cdn.mozilla.net - Tracking protection in Firefox. Likely used to update filters.
-# pixel.google.com - Google's homepage for Pixel phones.
-# pixel.google - Google Pixel related stuff
-# beacons.ai (wildcard) - Not a tracker, rather a social links site generator.
-# stats.arrowos.net - Stats information webpage for ArrowOS ROM.
-# stats.idre.ucla.edu (wildcard) - UCLA Statistical Consulting Web Resources
-# affiliate-program.amazon.com - Amazom affiliate program
-# mas-ssr-ad.amazon.com - Amazon affiliate program
-# ads-v-darwin.hulustream.com - Hulu ads for the ad supported version
